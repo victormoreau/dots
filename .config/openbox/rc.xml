@@ -42,8 +42,8 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>elephant-grey</name>
-    <titleLayout>LIMC</titleLayout>
+    <name>whitebox</name>
+    <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
@@ -57,8 +57,8 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>04b03</name>
-      <size>6</size>
+      <name>Noto Sans</name>
+      <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -66,8 +66,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>04b03</name>
-      <size>6</size>
+      <name>Noto Sans</name>
+      <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -75,16 +75,16 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>5x5 Pixel</name>
-      <size>9</size>
+      <name>Noto Mono</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>5x5 Pixel</name>
+      <name>Noto Sans</name>
       <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
@@ -93,8 +93,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Hack</name>
-      <size>8</size>
+      <name>Noto Sans UI</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -102,8 +102,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Hack</name>
-      <size>8</size>
+      <name>Noto Sans UI</name>
+      <size>9</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -152,10 +152,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>30</top>
-    <bottom>20</bottom>
-    <left>20</left>
-    <right>20</right>
+    <top>40</top>
+    <bottom>15</bottom>
+    <left>14</left>
+    <right>14</right>
   </margins>
   <dock>
     <position>Top</position>
@@ -189,10 +189,10 @@
       </action>
     </keybind>
     <keybind key="A-F3">
-     <action name="Execute">
-       <name>PCManFM</name>
-       <command>pcmanfm --new-win</command>
-     </action>  
+      <action name="Execute">
+        <name>PCManFM</name>
+        <command>pcmanfm --new-win</command>
+      </action>
     </keybind>
     <keybind key="A-F5">
       <action name="Execute">
@@ -203,7 +203,13 @@
     <keybind key="C-A-l">
       <action name="Execute">
         <name>Lock</name>
-        <command>./.lock</command>
+        <command>./.lock -g</command>
+      </action>
+    </keybind>
+    <keybind key="A-Print">
+      <action name="Execute">
+        <name>Screenshot with window border and shadows.</name>
+        <command>gnome-screenshot -w -b -d 2</command>
       </action>
     </keybind>
     <chainQuitKey>C-g</chainQuitKey>
