@@ -35,7 +35,7 @@ border_color_pressed = #343434 100
 
 #-------------------------------------
 # Panel
-panel_items = LTECB
+panel_items = LTSECB
 panel_size = 98% 20
 panel_margin = 0 10
 panel_padding = 0 0 0
@@ -109,23 +109,22 @@ mouse_scroll_down = none
 #-------------------------------------
 # System tray (notification area)
 systray_padding = 8 0 5
-systray_background_id = 3
+systray_background_id = 2
 systray_sort = ascending
 systray_icon_size = 14
-systray_icon_asb = 100 0 100
+systray_icon_asb = 100 0 0
 systray_monitor = 1
 
 #-------------------------------------
 # Launcher
-launcher_padding = 6 5 8
+launcher_padding = 3 5 8
 launcher_background_id = 1
 launcher_icon_background_id = 0
-launcher_icon_size = 12
+launcher_icon_size = 6
 launcher_icon_asb = 100 0 0
 launcher_icon_theme_override = 1
 startup_notifications = 0
 launcher_tooltip = 1
-# launcher_item_app = ~/.local/share/applications/ncmpcpp.desktop
 launcher_item_app = ~/.local/share/applications/chromium.desktop
 launcher_item_app = ~/.local/share/applications/pcmanfm.desktop
 launcher_item_app = ~/.local/share/applications/term.desktop
@@ -180,9 +179,9 @@ tooltip_font = Coder's Crux 12
 #-------------------------------------
 # EE
 execp = new
-execp_command = echo "/home/eti/.local/share/applications/icons/switch1.svg"
+execp_command = echo "/home/eti/.local/share/applications/icons/switch0.svg"
 execp_has_icon = 1
+execp_padding = 4 4
 execp_tooltip = 
-execp_padding = 6 12
 execp_background_id = 3
-execp_lclick_command = tint2-y.sh
+execp_lclick_command = tint2-n.sh
