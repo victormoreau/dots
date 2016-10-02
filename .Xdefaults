@@ -1,9 +1,16 @@
 ! No scrollbar
 URxvt*scrollBar: False
 
+! Transparency
+urxvt*depth: 32
+urxvt*background: rgba:3333/3333/3333/eeee
+
+! Internal Padding
+! URxvt*internalBorder: 7
+
 ! Cursor Options
 URxvt*cursorBlink: 1
-URxvt*cursorColor:  #e55050
+URxvt*cursorColor:  #fff
 
 ! Modi
 URxvt*modifier: alt
@@ -12,7 +19,7 @@ URxvt*modifier: alt
 URxvt*background: #272727
 
 ! Spacing
-! URxvt*linespace: 10
+! URxvt*lineSpace: 2
 ! URxvt*letterSpace: -2
 
 ! Foreground color
@@ -29,9 +36,8 @@ URxvt*termName: rxvt
 
 URxvt.font: -fuyuki-tangerine-medium-r-normal--10-110-75-75-m-50-iso8859-1
 URxvt.boldFont: -fuyuki-tangerine-medium-r-normal--10-110-75-75-m-50-iso8859-1
+! URxvt.font: xft:[FONT NAME]:size=12
 
-! URxvt.font: xft:Sans:size=8px
-! URxvt.boldFont: xft:Sans:size=8px
 
 ! Cursor
 
@@ -46,12 +52,12 @@ URxvt.matcher.button:   1
 ! Colors
 
 ! special
-*.foreground:   #c5c8c6
-*.background:   #181818
+*.foreground:   #EDEDED
+!*.background:   #181818
 
 ! black
-*.color0:       #282a2e
-*.color8:       #373b41
+*.color0:       #525252
+*.color8:       #747474
 
 ! red
 *.color1:       #e55050
@@ -78,5 +84,5 @@ URxvt.matcher.button:   1
 *.color14:      #85b0aa
 
 ! white
-*.color7:       #707880
+*.color7:       #9785F2
 *.color15:      #c5c8c6
