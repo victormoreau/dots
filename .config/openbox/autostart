@@ -2,16 +2,16 @@
 tint2-n.sh &
 
 # Touchpad tap
-sh /home/eti/.scripts/touchpad.sh
+sh /home/eti/.scripts/touchpad.sh &
 
 # Set the background
-hsetroot -cover /home/eti/MEGA/Wallpapers/EWUm1dO.png &
+hsetroot -cover /home/eti/MEGA/Wallpapers/mZvmEC6.png &
 
 # Fonts
 sh /home/eti/.scripts/tangerine.sh &
 
 # Compton ( For transparency of the elements )
-compton -r 4 -o .45 -c-C -l -6 -t -5 -z -D 8 -I 0.05 -O 0.07 -f &
+compton -r 4 -o .45 -c -C -l -6 -t -5 -z -D 8 -I 0.05 -O 0.07 -f &
 
 # Volume Icon
 volumeicon &
