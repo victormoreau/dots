@@ -3,10 +3,10 @@ URxvt*scrollBar: False
 
 ! Transparency
 urxvt*depth: 32
-urxvt*background: rgba:3333/3333/3333/eeee
+urxvt*background: rgba:3333/3333/3333/e3e3
 
 ! Internal Padding
-! URxvt*internalBorder: 7
+URxvt*internalBorder: 7
 
 ! Cursor Options
 URxvt*cursorBlink: 1

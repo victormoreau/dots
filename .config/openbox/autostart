@@ -11,7 +11,7 @@ hsetroot -cover /home/eti/MEGA/Wallpapers/mZvmEC6.png &
 sh /home/eti/.scripts/tangerine.sh &
 
 # Compton ( For transparency of the elements )
-compton -r 4 -o .45 -c -C -l -6 -t -5 -z -D 8 -I 0.05 -O 0.07 -f &
+compton -r 12 -o .4 -c -C -l -17 -t -7 -z -D 8 -I 0.05 -O 0.07 -f &
 
 # Volume Icon
 volumeicon &
