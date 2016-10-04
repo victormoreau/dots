@@ -13,7 +13,7 @@ border_color_hover = #343434 100
 background_color_pressed = #202020 100
 border_color_pressed = #343434 100
 
-# Background 2: Active task, Clock, Urgent task
+# Background 2
 rounded = 0
 border_width = 0
 background_color = #FFFFFF 100
@@ -23,10 +23,20 @@ border_color_hover = #505050 0
 background_color_pressed = #505050 100
 border_color_pressed = #505050 0
 
-# Background 3: Default task, Iconified task, Systray, Tooltip
+# Background 3
 rounded = 0
 border_width = 0
 background_color = #383838 100
+border_color = #343434 100
+background_color_hover = #505050 32
+border_color_hover = #343434 100
+background_color_pressed = #505050 32
+border_color_pressed = #343434 100
+
+# Background 4
+rounded = 0
+border_width = 0
+background_color = #8f8f8f 100
 border_color = #343434 100
 background_color_hover = #505050 32
 border_color_hover = #343434 100
@@ -109,7 +119,7 @@ mouse_scroll_down = none
 #-------------------------------------
 # System tray (notification area)
 systray_padding = 8 0 5
-systray_background_id = 2
+systray_background_id = 4
 systray_sort = ascending
 systray_icon_size = 14
 systray_icon_asb = 100 0 0
@@ -179,9 +189,9 @@ tooltip_font = Coder's Crux 12
 #-------------------------------------
 # EE
 execp = new
-execp_command = echo "/home/eti/.local/share/applications/icons/switch0.svg"
+execp_command = echo "/home/eti/.local/share/applications/icons/switch1.png"
 execp_has_icon = 1
-execp_padding = 4 4
 execp_tooltip = 
+execp_padding = 5 0 0
 execp_background_id = 3
 execp_lclick_command = tint2-n.sh

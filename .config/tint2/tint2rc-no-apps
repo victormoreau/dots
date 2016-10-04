@@ -180,9 +180,9 @@ tooltip_font = Coder's Crux 12
 #-------------------------------------
 # EE
 execp = new
-execp_command = echo "/home/eti/.local/share/applications/icons/switch1.svg"
+execp_command = echo "/home/eti/.local/share/applications/icons/switch0.png"
 execp_has_icon = 1
 execp_tooltip = 
-execp_padding = 6 12
+execp_padding = 5 0 0
 execp_background_id = 3
 execp_lclick_command = tint2-y.sh
