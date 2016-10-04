@@ -117,16 +117,16 @@ systray_monitor = 1
 
 #-------------------------------------
 # Launcher
-launcher_padding = 6 5 8
+launcher_padding = 8 0 7
 launcher_background_id = 1
 launcher_icon_background_id = 0
-launcher_icon_size = 12
+launcher_icon_size = 10
 launcher_icon_asb = 100 0 0
 launcher_icon_theme_override = 1
 startup_notifications = 0
-launcher_tooltip = 1
+launcher_tooltip = 0
 # launcher_item_app = ~/.local/share/applications/ncmpcpp.desktop
-launcher_item_app = ~/.local/share/applications/chromium.desktop
+# launcher_item_app = ~/.local/share/applications/chromium.desktop
 launcher_item_app = ~/.local/share/applications/pcmanfm.desktop
 launcher_item_app = ~/.local/share/applications/term.desktop
 
