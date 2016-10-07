@@ -1,7 +1,7 @@
 ! No scrollbar
 URxvt*scrollBar: False
 
-! Transparency
+! Transparency & Blur
 urxvt*depth: 32
 urxvt*background: rgba:3333/3333/3333/e3e3
 
@@ -47,42 +47,76 @@ Xcursor.theme:   OSX-ElCap
 
 URxvt.perl-ext-common:  default,matcher
 URxvt.urlLauncher:      chromium
-URxvt.matcher.button:   1
 
 ! Colors
 
 ! special
-*.foreground:   #EDEDED
-!*.background:   #181818
+*.foreground:   #f8f8f2
 
 ! black
-*.color0:       #525252
-*.color8:       #747474
+URxvt*.color0:       #6272a4
+URxvt*.color8:       #98a4c9
 
 ! red
-*.color1:       #e55050
-*.color9:       #c76363
+URxvt*.color1:       #ff5555
+URxvt*.color9:       #ff8787
 
 ! green
-*.color2:       #c1c974
-*.color10:      #e2e99d
+URxvt*.color2:       #2eba93
+URxvt*.color10:      #4cde9f
 
 ! yellow
-*.color3:       #faa65c
-*.color11:      #ffb777
+URxvt*.color3:       #f1fa8c
+URxvt*.color11:      #f9ffb6
 
 ! blue
-*.color4:       #58a3b8
-*.color12:      #80b6bd
+URxvt*.color4:       #81a2be
+URxvt*.color12:      #b6cde1
 
 ! magenta
-*.color5:       #b77dca
-*.color13:      #b29cb9
+URxvt*.color5:       #bd93f9
+URxvt*.color13:      #d8c0f9
 
 ! cyan
-*.color6:       #7cc7bd
-*.color14:      #85b0aa
+URxvt*.color6:       #8be9fd
+URxvt*.color14:      #b8f2ff
 
 ! white
-*.color7:       #9785F2
-*.color15:      #c5c8c6
+URxvt*.color7:       #f8f8f2
+URxvt*.color15:      #ffffff
+
+
+! special
+! *.foreground:   #EDEDED
+
+! black
+! *.color0:       #525252
+! *.color8:       #747474
+
+! red
+! *.color1:       #cc6666
+! *.color9:       #cc6666
+
+! green
+! *.color2:       #b5bd68
+! *.color10:      #b5bd68
+
+! yellow
+! *.color3:       #f0c674
+! *.color11:      #f0c674
+
+! blue
+! *.color4:       #81a2be
+! *.color12:      #81a2be
+
+! magenta
+! *.color5:       #b294bb
+! *.color13:      #b294bb
+
+! cyan
+! *.color6:       #8abeb7
+! *.color14:      #8abeb7
+
+! white
+! *.color7:       #eff1f5
+! *.color15:      #dfe1e8

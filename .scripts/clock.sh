@@ -2,4 +2,4 @@
 
 clear
 
-tty-clock -s -C 1 -c -D
+tty-clock -C 7 -c -s -D
