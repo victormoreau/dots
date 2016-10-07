@@ -1,11 +1,11 @@
 # Tint2 Panel
-tint2-n.sh &
+tint2-min.sh &
 
 # Touchpad tap
 sh /home/eti/.scripts/touchpad.sh &
 
 # Set the background
-hsetroot -cover /home/eti/MEGA/Wallpapers/mZvmEC6.png &
+hsetroot -cover /home/eti/MEGA/Wallpapers/1475167432605.jpg &
 
 # Fonts
 sh /home/eti/.scripts/tangerine.sh &
@@ -15,3 +15,6 @@ compton -r 12 -o .4 -c -C -l -17 -t -7 -z -D 8 -I 0.05 -O 0.07 -f &
 
 # Volume Icon
 volumeicon &
+
+# Network Manager
+nm-applet &

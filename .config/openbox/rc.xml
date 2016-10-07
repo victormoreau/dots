@@ -93,8 +93,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Noto Sans UI</name>
-      <size>9</size>
+      <name>Coder's Crux</name>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -102,8 +102,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Noto Sans UI</name>
-      <size>9</size>
+      <name>Coder's Crux</name>
+      <size>12</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -120,14 +120,16 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>3</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>Global</name>
-      <name>Idle</name>
-      <name>Theater</name>
+      <name>Browser</name>
+      <name>Files</name>
+      <name>Terminal</name>
+      <name>Coding</name>
+      <name>Movie</name>
     </names>
-    <popupTime>515</popupTime>
+    <popupTime>475</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
        desktops.  Set this to 0 to disable the popup. -->
   </desktops>
@@ -152,10 +154,10 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>40</top>
+    <top>15</top>
     <bottom>15</bottom>
-    <left>14</left>
-    <right>14</right>
+    <left>260</left>
+    <right>15</right>
   </margins>
   <dock>
     <position>Top</position>
@@ -249,14 +251,17 @@
         <to>3</to>
       </action>
     </keybind>
+    <keybind key="W-F4">
+      <action name="SendToDesktop">
+        <to>4</to>
+      </action>
+    </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
-    <keybind key="A-Escape">
-      <action name="Lower"/>
-      <action name="FocusToBottom"/>
-      <action name="Unfocus"/>
+    <keybind key="W-Down">
+      <action name="Iconify"/>
     </keybind>
     <keybind key="A-space">
       <action name="ShowMenu">

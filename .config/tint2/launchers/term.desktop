@@ -4,5 +4,5 @@ Terminal=false
 Type=Application
 Name=urxvt
 StartupWMClass=urxvt
-Exec=urxvt
+Exec= urxvt
 Icon=/home/eti/.local/share/applications/icons/cli.png
