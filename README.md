@@ -1,6 +1,8 @@
 These are my dotfiles.
 
 Here's how my setup looks right now.  
+
+
 ![Screenshot](https://u.teknik.io/YNb2F.png)
 
 Don't expect everything to work flawlessly out of the box.  
