@@ -1,6 +1,6 @@
 ## Dotfiles
 
-Here's how my setup looks right now.  
+Here's how my desktop looks right now.  
 
 
 ![Screenshot](https://u.teknik.io/YNb2F.png)
