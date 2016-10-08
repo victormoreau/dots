@@ -30,8 +30,8 @@ background_color_pressed = #505050 50
 border_color_pressed = #343434 100
 
 # Panel
-panel_items = LFCB
-panel_size = 17% 25
+panel_items = LFECB
+panel_size = 17% 26
 panel_margin = 15 15
 panel_padding = 0 0 0
 panel_background_id = 1
@@ -63,7 +63,7 @@ time1_font = 04b03 6
 time1_timezone =
 time2_font = 04b03 6
 clock_font_color = #eeeeee 100
-clock_padding = 6 0
+clock_padding = 5 0
 clock_background_id = 3
 clock_tooltip = %A %d %B
 clock_tooltip_timezone =
@@ -87,3 +87,13 @@ tooltip_padding = 8 8
 tooltip_background_id = 3
 tooltip_font_color = #e6e6e6 100
 tooltip_font = Coder's Crux 12
+
+# Executor
+execp = new
+execp_command = sh .scripts/netspeed.sh wlan0
+execp_continuous = 1
+execp_font = 04b03 6
+execp_font_color = #e6e6e6 100
+execp_padding = 5 0 0
+execp_tooltip =
+execp_background_id = 3
