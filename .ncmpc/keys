@@ -1,0 +1,39 @@
+## Move cursor up
+key up = 259
+
+## Move cursor down
+key down = 258
+
+## Pause
+key pause = 32
+
+## Seek forward
+key seek-forward = 261
+
+## Seek backward
+key seek-backward = 260
+
+## Increase volume
+key volume-up = 43
+
+## Decrease volume
+key volume-down = 45
+
+## Select/deselect song in queue
+key select = 0
+
+## Delete song from queue
+key delete = 330
+
+## Start a music database update
+key db-update = 'u'
+
+## Backward find previous
+key rfind-next = 0
+
+## Update Lyrics
+key lyrics-update = 0
+
+## Edit the current item
+key edit = 'e'
+
