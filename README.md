@@ -3,13 +3,10 @@
 Here's how my desktop looks right now.  
 
 
-![Screenshot](https://u.teknik.io/YNb2F.png)
+![Screen](http://eti.tf/misc/videos/gif/dotfiles.10.10.2016.480p.gif)
 
 ## Setup
 
 Don't expect *everything* to work flawlessly out of the box.  
-You can clone them with:
-
-    git clone https://github.com/eti1337/dotfiles.git
    
 ### Have fun !
