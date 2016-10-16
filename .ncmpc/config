@@ -15,7 +15,7 @@ auto-center = no
 crossfade-time = 5
 
 ## Seek forward/backward by NUM seconds.
-seek-time = 1
+seek-time = 4
 
 ############## Display ######################
 ## Show a list of the screens in the top line on startup.
@@ -81,4 +81,10 @@ chat-prefix = "user : "
 second-column = yes
 
 ## Enable/disable colors.
-enable-colors = no
+enable-colors = yes
+
+## Colors Settings
+color background = none
+
+## Port
+port = 7755
