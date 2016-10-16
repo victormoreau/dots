@@ -1,14 +1,14 @@
-# Tint2 Panel
-~/.scripts/tint2-min.sh &
+# Lemonbar
+sleep 2s && bash /home/eti/.scripts/bar.sh | lemonbar -p -f  -eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1 -g 315x20+540+5 -U "#eee" &
 
 # Touchpad tap
 sh ~/.scripts/touchpad.sh &
 
 # Set the background
-hsetroot -cover ~/.wallpaper/current-wallpaper.jpg &
+hsetroot -cover /home/eti/MEGA/Wallpapers/sk2.jpg &
 
 # Fonts
-sh ~/.scripts/tangerine.sh &
+sh ~/.scripts/fonts.sh &
 
 # Compton
 compton -r 12 -o .4 -c -C -l -17 -t -7 -z -D 8 -I 0.05 -O 0.07 -f &
@@ -18,3 +18,6 @@ volumeicon &
 
 # Network Manager
 nm-applet &
+
+# Beep
+xset -b &
