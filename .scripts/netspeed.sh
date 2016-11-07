@@ -23,5 +23,6 @@ do
         RBPS=`expr $R2 - $R1`
         TKBPS=`expr $TBPS / 1024`
         RKBPS=`expr $RBPS / 1024`
-        echo "$TKBPS | $RKBPS "
+        echo "$TKBPS | $RKBPS"
+        sleep 2
 done
