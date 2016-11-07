@@ -1,6 +1,6 @@
 ## Dotfiles
 
-Here's how my desktop looks right now.  
+Here's an example of how my desktop can look:  
 
 
 ![Screen](http://eti.tf/misc/videos/gif/dotfiles.10.10.2016.480p.gif)
