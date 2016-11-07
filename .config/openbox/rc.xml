@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>whitebox</name>
+    <name>firbox</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -201,6 +201,12 @@
         <command>chromium</command>
       </action>
     </keybind>
+    <keybind key="A-F7">
+      <action name="Execute">
+        <name>Stalonetray</name>
+        <command>stalonetray</command>
+      </action>
+    </keybind>
     <keybind key="C-A-l">
       <action name="Execute">
         <name>Lock</name>
@@ -348,7 +354,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action name="ToggleMaximizeFull"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">
@@ -591,9 +597,9 @@
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
-    <application class="*">
+    <!-- <application class="*">
       <decor>no</decor>
-    </application>
+    </application> -->
     <application class="stalonetray">
       <decor>yes</decor>
     </application>
