@@ -3,7 +3,7 @@ URxvt*scrollBar: False
 
 ! Transparency & Blur
 urxvt*depth: 32
-urxvt*background: rgba:3333/3333/3333/e3e3
+urxvt*background: rgba:3333/3333/3333/eeee
 
 ! Internal Padding
 URxvt*internalBorder: 7
@@ -19,8 +19,8 @@ URxvt*modifier: alt
 URxvt*background: #272727
 
 ! Spacing
-! URxvt*lineSpace: 2
-! URxvt*letterSpace: -2
+! URxvt*lineSpace: 0
+! URxvt*letterSpace: 0
 
 ! Foreground color
 URxvt*foreground: white
@@ -33,10 +33,11 @@ URxvt*geometry: 125x25
 URxvt*termName: rxvt
 
 ! Font
-
-URxvt.font: -fuyuki-tangerine-medium-r-normal--10-110-75-75-m-50-iso8859-1
-URxvt.boldFont: -fuyuki-tangerine-medium-r-normal--10-110-75-75-m-50-iso8859-1
-! URxvt.font: xft:[FONT NAME]:size=12
+URxvt.font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
+URxvt.boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
+! URxvt.font: -eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+! URxvt.boldFont: -eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1
+! URxvt.font: xft:Cure.se Medium:size=8
 
 
 ! Cursor
@@ -50,73 +51,28 @@ URxvt.urlLauncher:      chromium
 
 ! Colors
 
-! special
-*.foreground:   #f8f8f2
-
 ! black
-URxvt*.color0:       #6272a4
-URxvt*.color8:       #98a4c9
-
+*color0:      #14161A
+*color8:      #14161A
 ! red
-URxvt*.color1:       #ff5555
-URxvt*.color9:       #ff8787
-
+*color1:      #8C5760
+*color9:      #8C5760
 ! green
-URxvt*.color2:       #2eba93
-URxvt*.color10:      #4cde9f
-
+*color2:      #7B8C58
+*color10:     #7B8C58
 ! yellow
-URxvt*.color3:       #f1fa8c
-URxvt*.color11:      #f9ffb6
-
+*color3:      #B28C55
+*color11:     #B28C55
 ! blue
-URxvt*.color4:       #81a2be
-URxvt*.color12:      #b6cde1
-
+*color4:      #58698C
+*color12:     #58698C
 ! magenta
-URxvt*.color5:       #bd93f9
-URxvt*.color13:      #d8c0f9
-
+*color5:      #B23450
+*color13:     #B23450
 ! cyan
-URxvt*.color6:       #8be9fd
-URxvt*.color14:      #b8f2ff
-
+*color6:      #737373
+*color14:     #737373
 ! white
-URxvt*.color7:       #f8f8f2
-URxvt*.color15:      #ffffff
+*color7:      #D7D7D7
+*color15:     #D7D7D7
 
-
-! special
-! *.foreground:   #EDEDED
-
-! black
-! *.color0:       #525252
-! *.color8:       #747474
-
-! red
-! *.color1:       #cc6666
-! *.color9:       #cc6666
-
-! green
-! *.color2:       #b5bd68
-! *.color10:      #b5bd68
-
-! yellow
-! *.color3:       #f0c674
-! *.color11:      #f0c674
-
-! blue
-! *.color4:       #81a2be
-! *.color12:      #81a2be
-
-! magenta
-! *.color5:       #b294bb
-! *.color13:      #b294bb
-
-! cyan
-! *.color6:       #8abeb7
-! *.color14:      #8abeb7
-
-! white
-! *.color7:       #eff1f5
-! *.color15:      #dfe1e8
