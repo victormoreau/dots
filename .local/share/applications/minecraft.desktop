@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Terminal=false
+Type=Application
+Name=Minecraft
+StartupWMClass=Minecraft.jar
+Exec= java -jar /home/eti/Documents/Logiciels/Minecraft.jar
+Icon=/home/eti/.local/share/applications/icons/minecraft.png

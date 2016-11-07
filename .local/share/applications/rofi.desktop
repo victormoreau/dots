@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Terminal=false
+Type=Application
+Name=Menu
+Exec=rofi -show run -width 750 -location 0 -lines 5 -bw 0 -font "Noto Sans 10" -padding 2 -separator-style flat -hide-scrollbar -color-window "argb:e2292929, argb:21313131, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00"
+Icon=/home/eti/.local/share/applications/icons/menu.svg
