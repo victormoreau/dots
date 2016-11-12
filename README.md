@@ -2,7 +2,7 @@
 
 Here's an example of how my desktop can look:  
 
-![desktop](https://u.teknik.io/nWr7l.gif)
+![desktop](https://u.teknik.io/RRdf6.gif)
 
 ## ~
 
