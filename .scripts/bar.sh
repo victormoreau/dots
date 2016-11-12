@@ -26,7 +26,7 @@ sound() {
 }
 
 desktops() {
-    DESKTOP=$(bash /home/eti/.scripts/current_desktop.sh)
+    DESKTOP=$(bash ~/.scripts/current_desktop.sh)
     echo "$DESKTOP"
 }
 

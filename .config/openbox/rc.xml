@@ -120,13 +120,14 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>5</number>
     <firstdesk>1</firstdesk>
     <names>
-      <name>Browser</name>
-      <name>Files</name>
+      <name>Chat</name>
       <name>Terminal</name>
-      <name>Coding</name>
+      <name>Home</name>
+      <name>Files</name>
+      <name>Code</name>
     </names>
     <popupTime>0</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -186,7 +187,7 @@
     <keybind key="A-F2">
       <action name="Execute">
         <name>Run</name>
-        <command>rofi -show run -width 750 -location 0 -lines 5 -bw 0 -font "Noto Sans 10" -padding 2 -separator-style flat -hide-scrollbar -color-window "argb:e2292929, argb:21313131, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00"</command>
+        <command>rofi -show run -width 750 -location 0 -lines 5 -bw 0 -font "Noto Sans 10" -padding 250 -separator-style none -hide-scrollbar -color-window "argb:e2292929, argb:21313131, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00" -fullscreen</command>
       </action>
     </keybind>
     <keybind key="A-F3">
@@ -210,17 +211,21 @@
     <keybind key="C-A-l">
       <action name="Execute">
         <name>Lock</name>
-        <command>./.lock -g</command>
-      </action>
-    </keybind>
-    <keybind key="A-Print">
-      <action name="Execute">
-        <name>Screenshot with window border and shadows.</name>
-        <command>gnome-screenshot -w -b -d 2</command>
+        <command>./.lock ; suspend.sh</command>
       </action>
     </keybind>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
+    <keybind key="A-Left">
+      <action name="GoToDesktop">
+        <to>previous</to>
+      </action>
+    </keybind>
+    <keybind key="A-Right">
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
+    </keybind>
     <keybind key="C-F1">
       <action name="GoToDesktop">
         <to>1</to>
@@ -241,6 +246,11 @@
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="C-F5">
+      <action name="GoToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
     <keybind key="W-F1">
       <action name="SendToDesktop">
         <to>1</to>
@@ -259,6 +269,11 @@
     <keybind key="W-F4">
       <action name="SendToDesktop">
         <to>4</to>
+      </action>
+    </keybind>
+    <keybind key="W-F5">
+      <action name="SendToDesktop">
+        <to>5</to>
       </action>
     </keybind>
     <!-- Keybindings for windows -->
@@ -287,12 +302,12 @@
     </keybind>
     <keybind key="Print">
       <action name="Execute">
-        <command>sh /home/eti/.scripts/maim.sh</command>
+        <command>sh ~/.scripts/maim.sh</command>
       </action>
     </keybind>
     <keybind key="A-Print">
       <action name="Execute">
-        <command>sh /home/eti/.scripts/maimw.sh</command>
+        <command>sh ~/.scripts/maimw.sh</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->

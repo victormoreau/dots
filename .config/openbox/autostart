@@ -1,11 +1,11 @@
 # Lemonbar
-sleep 3s && bash /home/eti/.scripts/bar.sh | lemonbar -p -f '-eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -g 750x20+308+5 -U "#eee" -B "#252525" &
+sleep 3s && bash ~/.scripts/bar.sh | lemonbar -p -f '-eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -g 750x20+308+5 -U "#eee" -B "#252525" &
 
 # Touchpad tap
 sh ~/.scripts/touchpad.sh &
 
 # Set the background
-hsetroot -cover /home/eti/MEGA/Wallpapers/sk2.jpg &
+sleep 1s && hsetroot -cover MEGA/Wallpapers/nWQOCjB-2.jpg &
 
 # Fonts
 sh ~/.scripts/fonts.sh &
