@@ -2,7 +2,7 @@
 
 Here's an example of how my desktop can look:  
 
-![desktop](https://host123d1qn.cloudconvert.com/download/~rtcx7Q6pbAsrJ-NimZZv1yhatVg)
+![desktop](http://i.imgur.com/UhED0oS.jpg)
 
 ## ~
 
