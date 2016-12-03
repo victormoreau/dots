@@ -1,6 +1,6 @@
 # MPD Settings ..
 mpd_crossfade_time = "3"
-mpd_port = 7755
+mpd_port = "7755"
 
 # Display ..
 song_list_format = " $0%n $0• $0%t $R$0%A "

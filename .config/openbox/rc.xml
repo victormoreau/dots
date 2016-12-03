@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>firbox</name>
+    <name>whitebox</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -93,8 +93,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Coder's Crux</name>
-      <size>12</size>
+      <name>Sans</name>
+      <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -102,8 +102,8 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Coder's Crux</name>
-      <size>12</size>
+      <name>Sans</name>
+      <size>7</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
@@ -154,7 +154,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>35</top>
+    <top>30</top>
     <bottom>10</bottom>
     <left>10</left>
     <right>10</right>
@@ -187,7 +187,7 @@
     <keybind key="A-F2">
       <action name="Execute">
         <name>Run</name>
-        <command>rofi -show run -width 750 -location 0 -lines 5 -bw 0 -font "Noto Sans 10" -padding 250 -separator-style none -hide-scrollbar -color-window "argb:e2292929, argb:21313131, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00" -fullscreen</command>
+        <command>rofi -show run -width 512 -location 0 -lines 5 -bw 0 -font "limon 7" -padding 285 -separator-style none -hide-scrollbar -color-window "argb:de121212, argb:21121212, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00" -fullscreen</command>
       </action>
     </keybind>
     <keybind key="A-F3">
@@ -211,69 +211,29 @@
     <keybind key="C-A-l">
       <action name="Execute">
         <name>Lock</name>
-        <command>./.lock ; suspend.sh</command>
+        <command>./.lock</command>
       </action>
     </keybind>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="A-Left">
+    <keybind key="C-Left">
       <action name="GoToDesktop">
-        <to>previous</to>
+        <to>Previous</to>
       </action>
     </keybind>
-    <keybind key="A-Right">
+    <keybind key="C-Right">
       <action name="GoToDesktop">
-        <to>next</to>
+        <to>Next</to>
       </action>
     </keybind>
-    <keybind key="C-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="C-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="C-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="C-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
-    <keybind key="C-F5">
-      <action name="GoToDesktop">
-        <to>5</to>
-      </action>
-    </keybind>
-    <keybind key="W-F1">
+    <keybind key="W-Right">
       <action name="SendToDesktop">
-        <to>1</to>
+        <to>Next</to>
       </action>
     </keybind>
-    <keybind key="W-F2">
+    <keybind key="W-Left">
       <action name="SendToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="SendToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="SendToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
-    <keybind key="W-F5">
-      <action name="SendToDesktop">
-        <to>5</to>
+        <to>Previous</to>
       </action>
     </keybind>
     <!-- Keybindings for windows -->

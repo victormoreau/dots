@@ -3,16 +3,16 @@ URxvt*scrollBar: False
 
 ! Transparency & Blur
 urxvt*depth: 32
-urxvt*background: rgba:3333/3333/3333/eeee
+urxvt*background: rgba:1212/1212/1212/efef
 
 ! Internal Padding
 URxvt*internalBorder: 7
 
 ! Cursor Options
 URxvt*cursorBlink: 1
-URxvt*cursorColor:  #fff
+URxvt*cursorColor: #ffffff
 
-! Modi
+! Modifier
 URxvt*modifier: alt
 
 ! Background color
@@ -20,7 +20,7 @@ URxvt*background: #272727
 
 ! Spacing
 ! URxvt*lineSpace: 0
-! URxvt*letterSpace: 0
+! URxvt*letterSpace: -2
 
 ! Foreground color
 URxvt*foreground: white
@@ -35,10 +35,6 @@ URxvt*termName: rxvt
 ! Font
 URxvt.font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
 URxvt.boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
-! URxvt.font: -eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1
-! URxvt.boldFont: -eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1
-! URxvt.font: xft:Cure.se Medium:size=8
-
 
 ! Cursor
 
@@ -53,7 +49,7 @@ URxvt.urlLauncher:      chromium
 
 ! black
 *color0:      #222222
-*color8:      #222222
+*color8:      #999999
 ! red
 *color1:      #cd7f8d
 *color9:      #cd7f8d
