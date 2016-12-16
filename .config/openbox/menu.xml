@@ -20,11 +20,6 @@
 		</item>
 		<separator/>
 		<menu id="root-menu-25101" label="Power">
-			<item label="Sleep">
-				<action name="Execute">
-					<execute>systemctl suspend</execute>
-				</action>
-			</item>
 			<item label="Reboot">
 				<action name="Execute">
 					<execute>systemctl reboot</execute>

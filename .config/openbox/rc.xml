@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>whitebox</name>
+    <name>vapor</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -181,13 +181,13 @@
     <keybind key="A-F1">
       <action name="Execute">
         <name>Terminal</name>
-        <command>urxvt</command>
+        <command>urxvtc</command>
       </action>
     </keybind>
     <keybind key="A-F2">
       <action name="Execute">
         <name>Run</name>
-        <command>rofi -show run -width 512 -location 0 -lines 5 -bw 0 -font "limon 7" -padding 285 -separator-style none -hide-scrollbar -color-window "argb:de121212, argb:21121212, argb:6c000000" -color-normal "argb:0000000, argb:daffffff, argb:0000000, argb:83000000, #ffffff" -color-active "argb:5000000, argb:e5ffffff, argb:0000000, argb:50000000, #ffffff" -color-urgent "argb:5000000, #ffef00, argb:0000000, argb:59000000, #e2ff00" -fullscreen</command>
+        <command>rofi -show run -fullscreen True -lines 3 -line-margin 6 -padding 280 -bw 0 -opacity "95" -font "Hack 12" -scrollbar-width 0 -separator-style "none"</command>
       </action>
     </keybind>
     <keybind key="A-F3">
@@ -572,9 +572,9 @@
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
-    <!-- <application class="*">
+    <application class="*">
       <decor>no</decor>
-    </application> -->
+    </application>
     <application class="stalonetray">
       <decor>yes</decor>
     </application>

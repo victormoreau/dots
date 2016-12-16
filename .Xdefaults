@@ -1,30 +1,33 @@
-! *font: xft:Fira Code:size=8:antialias=true
+! *font: xft:Fira Code:size=8
+! *boldFont: xft:Fira Code:size=8
 *font: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
 *boldFont: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
-*allow_bold:       false
+! *font: xft:Roboto Mono:size=8
+! *boldFont: xft:Roboto Mono:size=8
+*allow_bold: false
 *scrollBar: false
 
-! ~~~~~~~~~~~~~~~~~~~~~ 
-! URxvt / Color Scheme 
+! ~~~~~~~~~~~~~~~~~~~~~
+! URxvt / Color Scheme
 ! ~~~~~~~~~~~~~~~~~~~~~
 
 *background: #252123
 *foreground: #FFFFFF
 
 ! black
-*color0:     #141210
+*color0:     #121212
 *color8:     #000000
 
 ! red
 *color1:     #cd7f8d
-*color9:     #FFC715
+*color9:     #a15dc0
 
 ! green
 *color2:     #98bf47
 *color10:    #98bf47
 
 ! yellow
-*color3:     #FFC715
+*color3:     #a15dc0
 *color11:    #EBB713
 
 ! blue
@@ -32,8 +35,8 @@
 *color12:    #58698C
 
 ! magenta
-*color5:     #B23450
-*color13:    #B23450
+*color5:     #a15dc0
+*color13:    #b586ca
 
 ! cyan
 *color6:     #56a8ac
@@ -43,18 +46,20 @@
 *color7:     #FFFFFF
 *color15:    #DDDDDD
 
-*cursorColor: #FFC715
+*cursorColor: #a15dc0
 *cursorBlink: 1
 
 *letterSpace: -1
 
-*geometry: 90x25
+*geometry: 95x25
 
 *perl-ext-common:  default,matcher
 *urlLauncher:      chromium
 
-*externalBorder: 0
-*internalBorder: 25
+! *externalBorder: 0
+! *internalBorder: 25
+
+*internalBorder: 10
 
 Xft.dpi:                    96
 Xft.antialias:              true
@@ -64,13 +69,13 @@ Xft.hintstyle:              hintslight
 
 
 ! ~~~~~~~~~~~~~~~~~~~~
-! Rofi / Color Scheme 
+! Rofi / Color Scheme
 ! ~~~~~~~~~~~~~~~~~~~~
 
 rofi.color-enabled: true
 
 ! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
-rofi.color-window:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123 
-rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #FFC715,          #252123
+rofi.color-window:    #252123,        #FFFFFF,        #252123,             #a15dc0,          #252123
+rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #a15dc0,          #252123
+rofi.color-active:    #252123,        #FFFFFF,        #252123,             #a15dc0,          #252123
+rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #a15dc0,          #252123

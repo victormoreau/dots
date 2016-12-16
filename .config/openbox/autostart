@@ -1,18 +1,20 @@
 # Lemonbar
-sleep 3s &&  bash ~/.scripts/bar.sh | lemonbar -p -f '-eti-limon-medium-r-normal--10-110-75-75-m-50-iso8859-1' -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -g x20++ -U "#eee" -B "#121212" &
+sleep 3s && bash ~/.scripts/yellowbar.sh | lemonbar -p -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -f '-eti-limon-plus-plus-medium-r-normal--10-110-75-75-m-50-iso8859-1' -g x19++ -U "#a15dc0" -B "#232323" &
+
+# tint2
+# tint2 &
 
 # Touchpad tap
 sh ~/.scripts/touchpad.sh &
 
 # Set the background
-# sleep 1s && hsetroot -cover MEGA/Wallpapers/* &
 sleep 1s && ./.fehbg
 
 # Fonts
 bash ~/.scripts/fonts.sh &
 
 # Compton
-compton -r 12 -o 0.5 -c -C -l -18 -t -10 -z -D 8 -I 0.05 -O 0.07 -f -G --blur-background --blur-kern 7x7box &
+compton -r 12 -o 0.5 -c -C -l -18 -t -10 -z -D 8 -I 0.05 -O 0.07 -f -G &
 
 # Volume Icon
 volumeicon &
@@ -22,3 +24,6 @@ nm-applet &
 
 # Beep
 xset -b &
+
+# urxvt daemon
+urxvtd
