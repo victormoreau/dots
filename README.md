@@ -1,5 +1,5 @@
 ## Dots
 
-Don't expect *everything* to work flawlessly out of the box.  
+![screen](https://u.teknik.io/T8Nxz.png)
 
-### Have fun !
+Don't expect *everything* to work flawlessly out of the box.  
