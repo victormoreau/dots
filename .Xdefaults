@@ -1,10 +1,11 @@
 *font: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
 *boldFont: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
 *allow_bold: false
+
 *scrollBar: false
 
-! ~~~~~~~~~~~~~~~~~~~~~ 
-! URxvt / Color Scheme 
+! ~~~~~~~~~~~~~~~~~~~~~
+! URxvt / Color Scheme
 ! ~~~~~~~~~~~~~~~~~~~~~
 
 *background: #252123
@@ -65,7 +66,7 @@ Xft.hintstyle:              hintslight
 
 
 ! ~~~~~~~~~~~~~~~~~~~~
-! Rofi / Color Scheme 
+! Rofi / Color Scheme
 ! ~~~~~~~~~~~~~~~~~~~~
 
 rofi.color-enabled: true
@@ -73,5 +74,5 @@ rofi.color-enabled: true
 ! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
 rofi.color-window:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
 rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123 
+rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
 rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #FFC715,          #252123

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HOST='ftp.eti.tf'
-USER="wby0nz_eti"
-REMOTEPATH='/pub'
+HOST='ftp.host'
+USER="username"
+REMOTEPATH='path'
 YELLOW='\033[1;33m'
 PURPLE="\033[0;35m"
 NC='\033[0m'
@@ -28,7 +28,7 @@ END_SCRIPT
 
 echo
 echo -e ${PURPLE}Uploaded $FILENAME
-echo -e ${YELLOW}Link: http://pub.eti.tf/$FILENAME
+echo -e ${YELLOW}Link: ftp.host/path/$FILENAME
 echo
 
 exit 0

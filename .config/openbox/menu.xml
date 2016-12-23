@@ -25,7 +25,7 @@
 					<execute>systemctl reboot</execute>
 				</action>
 			</item>
-			<item label="Shutdown">
+			<item label="Sleep">
 				<action name="Execute">
 					<execute>systemctl suspend</execute>
 				</action>

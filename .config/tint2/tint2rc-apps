@@ -112,7 +112,7 @@ tooltip_font = Coder's Crux 12
 
 # EE
 execp = new
-execp_command = echo "/home/eti/.local/share/applications/icons/switch1.png"
+execp_command = echo "~/.local/share/applications/icons/switch1.png"
 execp_has_icon = 1
 execp_tooltip =
 execp_padding = 5 0 0

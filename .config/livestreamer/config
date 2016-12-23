@@ -1,7 +1,0 @@
-# Default quality
-default-stream=high
-
-# Player settings
-
-player=mpv --cache 2048
-player-no-close

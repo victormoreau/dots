@@ -4,4 +4,4 @@
 killall tint2
 
 # Use taskbar = Off
-tint2 -c /home/eti/.config/tint2/tint2rc-no-apps
+tint2 -c ~/.config/tint2/tint2rc-no-apps
