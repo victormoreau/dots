@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>vapor</name>
+    <name>leaves</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -54,7 +54,7 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>yes</keepBorder>
+    <keepBorder>no</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Noto Sans</name>
@@ -572,11 +572,14 @@
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
-    <application class="*">
+    <!-- <application class="*">
       <decor>no</decor>
-    </application>
+    </application>-->
     <application class="stalonetray">
       <decor>yes</decor>
+    </application>
+    <application class="chromium">
+      <decor>no</decor>
     </application>
   </applications>
 </openbox_config>
