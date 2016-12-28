@@ -1,63 +1,70 @@
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+! If you wish to get my colorscheme it is located in ~/.caches/wal/colors*
+!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+! ~~~~~~
+! Fonts
+! ~~~~~~
 *font: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
 *boldFont: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
 *allow_bold: false
-
-*scrollBar: false
 
 ! ~~~~~~~~~~~~~~~~~~~~~
 ! URxvt / Color Scheme
 ! ~~~~~~~~~~~~~~~~~~~~~
 
-*background: #252123
-*foreground: #FFFFFF
+! *background: #252123
+! *foreground: #FFFFFF
 
 ! black
-*color0:     #121212
-*color8:     #000000
+! *color0:     #121212
+! *color8:     #000000
 
 ! red
-*color1:     #cd7f8d
-*color9:     #FFC715
+! *color1:     #cd7f8d
+! *color9:     #FFC715
 
 ! green
-*color2:     #98bf47
-*color10:    #98bf47
+! *color2:     #98bf47
+! *color10:    #98bf47
 
 ! yellow
-*color3:     #FFC715
-*color11:    #EBB713
+! *color3:     #FFC715
+! *color11:    #EBB713
 
 ! blue
-*color4:     #58698C
-*color12:    #58698C
+! *color4:     #58698C
+! *color12:    #58698C
 
 ! magenta
-*color5:     #B23450
-*color13:    #B23450
+! *color5:     #B23450
+! *color13:    #B23450
 
 ! cyan
-*color6:     #56a8ac
-*color14:    #56a8ac
+! *color6:     #56a8ac
+! *color14:    #56a8ac
 
 ! white
-*color7:     #FFFFFF
-*color15:    #DDDDDD
+! *color7:     #FFFFFF
+! *color15:    #DDDDDD
 
-*cursorColor: #FFC715
+!cursor
+! *cursorColor: #FFC715
+
+!~~~~~~~~~~~~~~~~
+! urxvt settings
+!~~~~~~~~~~~~~~~~
 *cursorBlink: 1
-
 *letterSpace: -1
-
 *geometry: 95x25
-
 *perl-ext-common:  default,matcher
 *urlLauncher:      chromium
-
-! *externalBorder: 0
-! *internalBorder: 25
-
+*scrollBar: false
 *internalBorder: 10
 
+!~~~~~~~~~~~~~~~
+! xft settings
+!~~~~~~~~~~~~~~~
 Xft.dpi:                    96
 Xft.antialias:              true
 Xft.rgba:                   subpixel
@@ -72,7 +79,7 @@ Xft.hintstyle:              hintslight
 rofi.color-enabled: true
 
 ! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
-rofi.color-window:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #FFC715,          #252123
+! rofi.color-window:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
+! rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
+! rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
+! rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #FFC715,          #252123
