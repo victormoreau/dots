@@ -9,4 +9,4 @@
 ```
 Don't expect *everything* to work flawlessly out of the box.
 
-![screen](https://u.teknik.io/T8Nxz.png)
+![screen](https://u.teknik.io/vVXy0.png)
