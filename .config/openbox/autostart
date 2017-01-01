@@ -1,28 +1,22 @@
-# Compton
+# compton
 compton -r 12 -o 0.5 -c -C -l -18 -t -10 -z -D 8 -I 0.05 -O 0.07 -f -G &
 
-# Fonts
+# fonts
 bash ~/.scripts/fonts.sh &
 
-# Lemonbar
-sleep 3s &&  bash ~/.scripts/bar.sh | lemonbar -p -f '-wuncon-siji-medium-r-normal--10-100-75-75-c-80-iso10646-1' -f '-eti-limon-plus-plus-medium-r-normal--10-110-75-75-m-50-iso8859-1' -g x19++ -U "#CA8D67" -B "#0E181A" &
+# lemonbar
+sleep 2s && ./.scripts/bar.sh &
 
-# tint2
-# tint2 &
-
-# Touchpad tap
+# touchpad tap
 sh ~/.scripts/touchpad.sh &
 
-# Set the background
-# sleep 1s && ./.fehbg &
-
-# Volume Icon
+# volume Icon
 volumeicon &
 
-# Network Manager
+# network Manager
 nm-applet &
 
-# Beep
+# beep
 xset -b &
 
 # urxvt daemon
@@ -30,3 +24,9 @@ urxvtd &
 
 # wal
 ~/./git/wal/wal -i ~/git/wal/leaves.png &
+
+# quicktile daemon
+quicktile --daemonize &
+
+# set the background
+./.fehbg &
