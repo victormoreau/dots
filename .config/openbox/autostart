@@ -22,9 +22,6 @@ xset -b &
 # urxvt daemon
 urxvtd &
 
-# wal
-~/./git/wal/wal -i ~/git/wal/leaves.png &
-
 # quicktile daemon
 quicktile --daemonize &
 

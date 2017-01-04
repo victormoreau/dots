@@ -160,10 +160,10 @@
     <right>10</right>
   </margins>
   <dock>
-    <position>Top</position>
+    <position>Floating</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
-    <floatingX>0</floatingX>
-    <floatingY>0</floatingY>
+    <floatingX>10</floatingX>
+    <floatingY>737</floatingY>
     <noStrut>no</noStrut>
     <stacking>Above</stacking>
     <!-- 'Above', 'Normal', or 'Below' -->
@@ -202,16 +202,16 @@
         <command>chromium</command>
       </action>
     </keybind>
+    <keybind key="A-F6">
+      <action name="Execute">
+        <name>Kill stalonetray</name>
+        <command>killall stalonetray</command>
+      </action>
+    </keybind>
     <keybind key="A-F7">
       <action name="Execute">
         <name>Stalonetray</name>
         <command>stalonetray</command>
-      </action>
-    </keybind>
-    <keybind key="C-A-l">
-      <action name="Execute">
-        <name>Lock</name>
-        <command>./.lock</command>
       </action>
     </keybind>
     <chainQuitKey>C-g</chainQuitKey>
