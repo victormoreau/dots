@@ -1,0 +1,127 @@
+[bar/barito]
+dock = true
+width = 100%
+height = 20
+
+background = #252525
+foreground = #eee
+
+border-bottom = 1
+border-bottom-color = #574b63
+
+spacing = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = -eti-limon-plus-plus-medium-r-normal--10-110-75-75-m-50-iso8859-1
+font-1 = siji:pixelsize=10;1
+font-2 = lemon:pixelsize=10;0
+
+modules-left =  date
+modules-center = desktops
+modules-right = volume wlan battery
+
+
+[module/xwindow]
+type = internal/xwindow
+label = %title%
+label-maxlen = 50
+
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+mount-1 = /home/
+
+label-mounted = %mountpoint%: %percentage_free%
+
+label-unmounted = %mountpoint%: not mounted
+label-unmounted-foreground = #99
+
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #eee
+format-disconnected-underline = ${self.format-connected-underline}
+
+label-connected = %essid%
+label-disconnected = %ifname% disconnected
+label-disconnected-foreground = #99
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #99
+
+
+[module/date]
+type = internal/date
+date = %%{F#99}%%{F#ff} %H:%M
+date-alt = %%{F#99}%{F#ff} %d-%m-%Y  %%{F#99}%%{F#ff} %H:%M
+interval = 5
+format-underline = #0a6cf5
+
+
+[module/volume]
+type = internal/volume
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+label-volume-foreground = #99
+label-muted = 
+label-muted-foreground = #99
+bar-volume-width = 6
+bar-volume-foreground-0 = #99aa99
+bar-volume-foreground-1 = #99aa99
+bar-volume-foreground-2 = #99aa99
+bar-volume-foreground-3 = #99aa99
+bar-volume-foreground-4 = #99aa99
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #f5a70a
+bar-volume-gradient = false
+bar-volume-indicator = ¡
+bar-volume-indicator-font = 1
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = ─
+bar-volume-fill-font = 1
+bar-volume-empty = ─
+bar-volume-empty-font = 1
+bar-volume-empty-foreground = #99
+
+[module/desktops]
+type = custom/script
+exec = ~/.scripts/current-desktop.sh
+interval = 0.2
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = #ffb52a
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+format-full = %{F#99}%{F#ff}  <label-full>
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = #99
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = #99
+animation-charging-framerate = 750
