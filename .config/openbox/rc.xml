@@ -267,7 +267,7 @@
     </keybind>
     <keybind key="A-Print">
       <action name="Execute">
-        <command>sh ~/.scripts/maimw.sh</command>
+        <command>sh ~/.scripts/wscr.sh</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
