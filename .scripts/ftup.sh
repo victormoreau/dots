@@ -1,21 +1,19 @@
-#!/bin/bash
+#!/bin/sh
 
-HOST='ftp.host'
-USER="username"
-REMOTEPATH='path'
+HOST='ftp.eti.tf'
+USER='wby0nz_eti'
+REMOTEPATH='/pub'
 YELLOW='\033[1;33m'
 PURPLE="\033[0;35m"
 NC='\033[0m'
 
-echo -e "${YELLOW}Local file path:"
+echo -e "$YELLOW"
+read -rp "Local file path
+> " FILEPATH
 
-read FILEPATH
-
-echo -e "Remote file name:"
-
-read FILENAME
-
-echo -e "${NC}"
+read -rp "Remote file path
+> " FILENAME
+echo -e "$NC"
 
 ftp -n $HOST <<END_SCRIPT
 
@@ -27,8 +25,8 @@ quit
 END_SCRIPT
 
 echo
-echo -e ${PURPLE}Uploaded $FILENAME
-echo -e ${YELLOW}Link: ftp.host/path/$FILENAME
+echo -e "$PURPLE Uploaded $FILENAME $NC"
+echo -e "$YELLOW Link: http://pub.eti.tf/$FILENAME $NC"
 echo
 
 exit 0
