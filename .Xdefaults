@@ -1,25 +1,24 @@
-! ~~~~~~
-! fonts
-! ~~~~~~
-*font: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
-*boldFont: -aaron-bitbuntufull-medium-r-normal--10-100-72-72-c-90-utf8-1
+! *font: xft:Iosevka:size=8
+! *boldFont: xft:Iosevka:size=8
+*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
+*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
 *allow_bold: false
+*scrollBar: false
 
-! ~~~~~~~~~~~~~~~~~~~~~
-! color scheme
+! ~~~~~~~~~~~~~~~~~~~~~ 
+! URxvt / Color Scheme 
 ! ~~~~~~~~~~~~~~~~~~~~~
 ! special
 *.foreground:   #ffffff
-*.background:   #161616
-*.cursorColor:  #B04F41
+*.background:   #222222
 
 ! black
 *.color0:       #232323
 *.color8:       #343434
 
 ! red
-*.color1:       #994444
-*.color9:       #bc6767
+*.color1:       #ed5554
+*.color9:       #e78383
 
 ! green
 *.color2:       #668866
@@ -46,35 +45,37 @@
 *.color15:      #efefef
 
 
-!~~~~~~~~~~~~~~~~
-! urxvt settings
-!~~~~~~~~~~~~~~~~
+*.cursorColor:  #ed5554
 *cursorBlink: 1
-*letterSpace: -1
-*geometry: 95x25
+
+! *letterSpace: -1
+
+*geometry: 90x22
+
 *perl-ext-common:  default,matcher
 *urlLauncher:      chromium
-*scrollBar: false
+
+! *externalBorder: 0
+! *internalBorder: 25
+
 *internalBorder: 10
 
-!~~~~~~~~~~~~~~~
-! xft settings
-!~~~~~~~~~~~~~~~
 Xft.dpi:                    96
 Xft.antialias:              true
 Xft.rgba:                   subpixel
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
+Xft.lcdfilter:				lcddefault
 
-
-! ~~~~~
-! rofi
-! ~~~~~
+! ~~~~~~~~~~~~~~~~~~~~
+! Rofi / Color Scheme 
+! ~~~~~~~~~~~~~~~~~~~~
 
 rofi.color-enabled: true
 
-Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
-rofi.color-window:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-normal:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-active:    #252123,        #FFFFFF,        #252123,             #FFC715,          #252123
-rofi.color-urgent:    #252123,        #DDDDDD,        #252123,             #FFC715,          #252123
+! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
+rofi.color-window:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525
+rofi.color-normal:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525
+rofi.color-active:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525 
+rofi.color-urgent:    #252525,        #DDDDDD,        #252525,             #ed5554,          #252525
+rofi.font: Source Sans Pro 12
