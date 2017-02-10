@@ -8,4 +8,4 @@
 ```
 Don't expect *everything* to work flawlessly out of the box.
 
-![screen](https://u.teknik.io/robll.png)
+![screen](http://pub.eti.tf/screenshots/scrot10.png)
