@@ -1,4 +1,1 @@
-function fish_prompt
-    # Main
-	echo -n '$ > '
-end
+/home/anon/.local/share/omf/themes/eden/fish_prompt.fish

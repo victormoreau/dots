@@ -340,7 +340,7 @@ install_time="on"
 # Example:
 # colors=(distro)      - Text is colored based on Distro colors.
 # colors=(4 6 1 8 8 6) - Text is colored in the order above.
-colors=(distro)
+colors=(1 11 1 1 1 11)
 
 
 # Text Options
@@ -561,7 +561,7 @@ xoffset=0
 # Default: ''
 # Values:  'color', 'blue'
 # Flag:    --bg_color
-background_color=#0e181a
+background_color=''
 
 
 # Ascii Options
