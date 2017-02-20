@@ -1,5 +1,8 @@
 # compton
-compton -r 12 -o 0.5 -c -C -l -18 -t -10 -z -D 8 -I 0.05 -O 0.07 -f -G &
+compton -r 12 -o 0.5 -c -C -l -18 -t -10 -z -D 8 -I 0.05 -O 0.07 -f -G --refresh-rate 60 &
+
+# tray
+stalonetray &
 
 # set the gamma
 xgamma -gamma 0.85 &
@@ -33,3 +36,6 @@ quicktile --daemonize &
 
 # megasync
 megasync &
+
+# numlock
+numlockx on &

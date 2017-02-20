@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>leaves</name>
+    <name>bonsai</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -54,7 +54,7 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <keepBorder>no</keepBorder>
+    <keepBorder>yes</keepBorder>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
       <name>Noto Sans</name>
@@ -154,7 +154,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>30</top>
+    <top>35</top>
     <bottom>10</bottom>
     <left>10</left>
     <right>10</right>
@@ -163,7 +163,7 @@
     <position>Floating</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>10</floatingX>
-    <floatingY>737</floatingY>
+    <floatingY>1047</floatingY>
     <noStrut>no</noStrut>
     <stacking>Above</stacking>
     <!-- 'Above', 'Normal', or 'Below' -->
@@ -572,9 +572,9 @@
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
-    <!-- <application class="*">
+    <application class="*">
       <decor>no</decor>
-    </application>-->
+    </application>
     <application class="stalonetray">
       <decor>yes</decor>
     </application>
