@@ -1,0 +1,105 @@
+[bar/barito]
+width = 100%
+height = 20
+
+background = #252525
+foreground = #eee
+
+border-bottom-size = 1
+border-bottom-color = #ed5554
+
+spacing = 1
+padding-left = 2
+padding-right = 2
+module-margin-left = 1
+module-margin-right = 2
+
+font-0 = lime:pixelsize=10;0
+font-1 = siji:pixelsize=10;1
+
+modules-left =  date
+modules-center = desktops
+modules-right = volume wlan battery
+
+[module/wlan]
+type = internal/network
+interface = wlp3s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #eee
+format-disconnected-underline = ${self.format-connected-underline}
+
+label-connected = %essid%
+label-disconnected = %ifname% disconnected
+label-disconnected-foreground = #eee
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = #eee
+
+
+[module/date]
+type = internal/date
+date = %%{F#eee}%%{F#ff} %H:%M
+date-alt = %%{F#eee}%{F#ff} %d-%m-%Y  %%{F#eee}%%{F#ff} %H:%M
+interval = 5
+format-underline = #0a6cf5
+
+
+[module/volume]
+type = internal/volume
+format-volume = <label-volume> <bar-volume>
+label-volume = 
+label-volume-foreground = #eee
+label-muted = 
+label-muted-foreground = #77
+bar-volume-width = 6
+bar-volume-foreground-0 = #ed5554
+bar-volume-foreground-1 = #ed5554
+bar-volume-foreground-2 = #ed5554
+bar-volume-foreground-3 = #ed5554
+bar-volume-foreground-4 = #ed5554
+bar-volume-foreground-5 = #ff8584
+bar-volume-foreground-6 = #ff8584
+bar-volume-gradient = false
+bar-volume-indicator =  + 
+bar-volume-indicator-font = 1
+bar-volume-indicator-foreground = #ff
+bar-volume-fill = -
+bar-volume-fill-font = 1
+bar-volume-empty = -
+bar-volume-empty-font = 1
+bar-volume-empty-foreground = #eee
+
+[module/desktops]
+type = custom/script
+exec = ~/.scripts/current-desktop.sh
+interval = 0.1
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+full-at = 98
+
+format-charging = <animation-charging><label-charging>
+format-charging-underline = #ffb52a
+format-discharging = <ramp-capacity> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+format-full = %{F#eee}%{F#ff} <label-full>
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = #eee
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = #eee
+animation-charging-framerate = 750
