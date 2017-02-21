@@ -160,10 +160,10 @@ statusbar = {
     prompt_empty = "{prompt $winname}";
 
     topic = " $topic";
-    topic_empty = " irssi";
+    topic_empty = "irc";
 
-    lag = "{sb Lag: $0-}";
-    act = "{sb Act: $0-}";
+    # lag = "{sb Lag: $0-}";
+    # act = "{sb Act: $0-}";
     more = "-- more --";
   };
 
@@ -173,14 +173,12 @@ statusbar = {
 
       disabled = "no";
       type = "window";
-      placement = "bottom";
+      placement = "top";
       position = "1";
       visible = "active";
 
       items = {
         barstart = { priority = "100"; };
-        time = { };
-        user = { };
         window = { };
         window_empty = { };
         lag = { priority = "-1"; };
@@ -223,9 +221,9 @@ statusbar = {
     topic = {
 
       type = "root";
-      placement = "top";
+      placement = "bottom";
       position = "1";
-      visible = "always";
+      visible = "inactive";
 
       items = {
         topicbarstart = { priority = "100"; };
@@ -234,16 +232,13 @@ statusbar = {
         topicbarend = { priority = "100"; alignment = "right"; };
       };
     };
+    remove = { };
   };
 };
 settings = {
-  core = {
-    real_name = "~";
-    user_name = "eti";
-    nick = "eti";
-  };
+  core = { real_name = "~"; user_name = "eti"; nick = "eti"; };
   "fe-text" = { actlist_sort = "refnum"; };
-  "fe-common/core" = { theme = "lines"; };
+  "fe-common/core" = { theme = "zen"; };
 };
 
 #!# Theme
