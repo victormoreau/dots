@@ -6,6 +6,3 @@
 \__,_/\____/\__/____/  
                        
 ```
-Don't expect *everything* to work flawlessly out of the box.
-
-![screen](http://pub.eti.tf/screenshots/scrot10.png)

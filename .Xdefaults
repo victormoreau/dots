@@ -1,13 +1,19 @@
-! *font: xft:Iosevka:size=8
-! *boldFont: xft:Iosevka:size=8
+            __    ___          ____    
+   __ _____/ /__ / _/__ ___ __/ / /____
+ _ \ \ / _  / -_) _/ _ `/ // / / __(_-<
+(_)_\_\\_,_/\__/_/ \_,_/\_,_/_/\__/___/
+
+
+# fonts
 *font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
 *boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
-*allow_bold: false
+
+
+# disable urxvt's ugly scrollbar
 *scrollBar: false
 
-! ~~~~~~~~~~~~~~~~~~~~~ 
-! URxvt / Color Scheme 
-! ~~~~~~~~~~~~~~~~~~~~~
+
+# colorscheme
 ! special
 *.foreground:   #ffffff
 *.background:   #222222
@@ -45,21 +51,20 @@
 *.color15:      #efefef
 
 
+# cursor
 *.cursorColor:  #ed5554
 *cursorBlink: 1
 
-! *letterSpace: -1
 
+# size
 *geometry: 90x22
 
-*perl-ext-common:  default,matcher
-*urlLauncher:      chromium
 
-! *externalBorder: 0
-! *internalBorder: 25
-
+# padding
 *internalBorder: 10
 
+
+# xft fonts settings
 Xft.dpi:                    96
 Xft.antialias:              true
 Xft.rgba:                   subpixel
@@ -67,10 +72,8 @@ Xft.hinting:                true
 Xft.hintstyle:              hintslight
 Xft.lcdfilter:				lcddefault
 
-! ~~~~~~~~~~~~~~~~~~~~
-! Rofi / Color Scheme 
-! ~~~~~~~~~~~~~~~~~~~~
 
+# rofi settings
 rofi.color-enabled: true
 
 ! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
