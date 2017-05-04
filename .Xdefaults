@@ -5,8 +5,8 @@
 
 
 # fonts
-*font: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
-*boldFont: -benis-lemon-medium-r-normal--10-110-75-75-m-50-iso10646-1
+*font: -uw-ttyp0-medium-r-normal--11-100-75-75-c-60-iso10646-1
+*boldFont: -uw-ttyp0-medium-r-normal--11-100-75-75-c-60-iso10646-1
 
 
 # disable urxvt's ugly scrollbar
@@ -15,44 +15,44 @@
 
 # colorscheme
 ! special
-*.foreground:   #ffffff
-*.background:   #222222
+*.foreground:   #b9b9b9
+*.background:   #101010
 
 ! black
-*.color0:       #232323
-*.color8:       #343434
+*.color0:       #101010
+*.color8:       #525252
 
 ! red
-*.color1:       #ed5554
-*.color9:       #e78383
+*.color1:       #cc6666
+*.color9:       #cc6666
 
 ! green
-*.color2:       #668866
-*.color10:      #89a589
+*.color2:       #8e8e8e
+*.color10:      #8e8e8e
 
 ! yellow
-*.color3:       #eebb66
-*.color11:      #ffd693
+*.color3:       #a0a0a0
+*.color11:      #a0a0a0
 
 ! blue
-*.color4:       #446c88
-*.color12:      #698aa1
+*.color4:       #686868
+*.color12:      #686868
 
 ! magenta
-*.color5:       #ee7777
-*.color13:      #ffa6a6
+*.color5:       #747474
+*.color13:      #747474
 
 ! cyan
-*.color6:       #468b8b
-*.color14:      #6faaaa
+*.color6:       #868686
+*.color14:      #868686
 
 ! white
-*.color7:       #dddddd
-*.color15:      #efefef
+*.color7:       #b9b9b9
+*.color15:      #f7f7f7
 
 
 # cursor
-*.cursorColor:  #ed5554
+*.cursorColor:  #eeeeee
 *cursorBlink: 1
 
 
@@ -70,15 +70,15 @@ Xft.antialias:              true
 Xft.rgba:                   subpixel
 Xft.hinting:                true
 Xft.hintstyle:              hintslight
-Xft.lcdfilter:				lcddefault
+Xft.lcdfilter:              lcddefault
 
 
 # rofi settings
 rofi.color-enabled: true
 
 ! Property            Background      Foreground      Background Alt       Highlight BG      Highlight FG
-rofi.color-window:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525
-rofi.color-normal:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525
-rofi.color-active:    #252525,        #FFFFFF,        #252525,             #ed5554,          #252525 
-rofi.color-urgent:    #252525,        #DDDDDD,        #252525,             #ed5554,          #252525
-rofi.font: Source Sans Pro 12
+rofi.color-window:    #050505,        #FFFFFF,        #050505,             #c9c9c9,          #050505
+rofi.color-normal:    #050505,        #FFFFFF,        #050505,             #c9c9c9,          #050505
+rofi.color-active:    #050505,        #FFFFFF,        #050505,             #c9c9c9,          #050505
+rofi.color-urgent:    #050505,        #DDDDDD,        #050505,             #c9c9c9,          #050505
+rofi.font: Roboto 12
