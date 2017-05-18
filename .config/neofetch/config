@@ -13,23 +13,23 @@ print_info() {
     info title
     info underline
 
-    info "OS" distro
+    #info "OS" distro
     info "Model" model
     # info "Kernel" kernel
-    info "Uptime" uptime
-    info "Packages" packages
+    #info "Uptime" uptime
+    #info "Packages" packages
     info "Shell" shell
-    info "Resolution" resolution
-    info "DE" de
+    #info "Resolution" resolution
+    #info "DE" de
     info "WM" wm
-    # info "WM Theme" wm_theme
+    info "WM Theme" wm_theme
     # info "Theme" theme
     # info "Icons" icons
     info "Terminal" term
     # info "Terminal Font" term_font
-    info "CPU" cpu
+    #info "CPU" cpu
     # info "GPU" gpu
-    info "Memory" memory
+    #info "Memory" memory
 
     # info "CPU Usage" cpu_usage
     # info "Disk (root)" disk
@@ -340,7 +340,7 @@ install_time="on"
 # Example:
 # colors=(distro)      - Text is colored based on Distro colors.
 # colors=(4 6 1 8 8 6) - Text is colored in the order above.
-colors=(1 11 1 1 1 11)
+colors=(67 15 67 67 15 15)
 
 
 # Text Options
